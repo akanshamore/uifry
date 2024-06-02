@@ -1,0 +1,31 @@
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+
+.featuresRow {
+    display: flex;
+    align-items: center;
+}
+
+.titleContainer {
+    width: 497px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.heading {
+
+    font-size: 48px;
+}
+
+
+.redText {
+
+    color: #FF5555;
+}

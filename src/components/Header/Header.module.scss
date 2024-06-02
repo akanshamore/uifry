@@ -1,0 +1,51 @@
+.container {
+
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.linksHeadingContainer {
+    display: flex;
+    align-items: center;
+}
+
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+
+
+.links {
+
+    margin-left: 76px;
+    display: flex;
+    justify-content: space-between;
+
+    span {
+        margin-right: 24px;
+        font-size: 20px;
+
+        &:first-child {
+            color: #FF5555;
+        }
+    }
+}
+
+.downloadButton {
+
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 46px;
+    border-radius: 8px;
+}

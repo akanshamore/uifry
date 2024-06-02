@@ -1,0 +1,36 @@
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+
+}
+
+
+
+
+
+.titleContainer {
+    width: 455px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.heading {
+
+    font-size: 48px;
+    text-transform: capitalize;
+}

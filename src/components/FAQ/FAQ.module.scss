@@ -1,0 +1,56 @@
+.content {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+
+
+.faq {
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+
+.redFaq {
+    padding: 30px;
+    background-color: #FF5555;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+    h5 {
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+}
+
+
+.titleContainer {
+    width: 497px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+
+    font-size: 48px;
+}
+
+
+.redText {
+
+    color: #FF5555;
+}

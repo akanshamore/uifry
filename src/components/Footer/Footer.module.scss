@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    margin-top: 155px;
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+    span {
+        line-height: 48px;
+    }
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerHeading {
+
+    font-size: 32px;
+}
+
+.subscribeButton {
+
+    display: flex;
+
+    background-color: black;
+
+    color: white;
+    padding: 8px 40px;
+    border-radius: 8px;
+}
+
+.inputContainer {
+
+    outline: none;
+    border: 0;
+}

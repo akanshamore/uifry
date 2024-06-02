@@ -1,0 +1,32 @@
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+
+
+.advantageRow {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titleContainer {
+    width: 497px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+
+    font-size: 48px;
+}
+
+.redText {
+
+    color: #FF5555;
+}

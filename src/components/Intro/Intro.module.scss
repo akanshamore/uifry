@@ -1,0 +1,43 @@
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.heading {
+
+    font-size: 64px;
+}
+
+.buttonsContainer {
+
+    display: flex;
+    margin-top: 24px;
+}
+
+.button {
+    width: 180px;
+
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.watchButton {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
